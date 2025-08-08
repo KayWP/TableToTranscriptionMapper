@@ -68,13 +68,16 @@ def build_word_dataframe(table, scaled_words):
     for row in table:
         new_row = []
         for cell in row:
-            overlapping = boxes_that_overlap_reference(scaled_words, cell.coords.box)
-            # Get just the word labels (keys)
-            labels = " ".join(overlapping.keys())
+            # Check if coords exist before trying to access .box
+            if cell.coords is not None:
+                overlapping = boxes_that_overlap_reference(scaled_words, cell.coords.box)
+                labels = " ".join(overlapping.keys())
+            else:
+                # Handle cells with no coordinates
+                labels = ""  # or some default value
             new_row.append(labels)
         new_table.append(new_row)
 
-    # Build a pandas DataFrame from the nested list
     df = pd.DataFrame(new_table)
     return df
 
