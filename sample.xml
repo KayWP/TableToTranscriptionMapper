@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.27.0:model_id=50786:lm=none:date=01_07_2025_12:12</Creator>
+        <Created>2025-03-31T11:24:59.881+02:00</Created>
+        <LastChange>2025-07-14T11:39:55.200+02:00</LastChange>
+        <TranskribusMetadata docId="7709637" pageId="94261794" pageNr="1" tsid="249193221" status="IN_PROGRESS" userId="107538" imgUrl="https://files.transkribus.eu/Get?id=XVDWKAAMEIZYZHKDMYKTTLKK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RAGYCBQWNFSROZLJOXWOJJZI" imageId="78873152"/>
+    </Metadata>
+    <Page imageFilename="94261794.jpg" imageWidth="5000" imageHeight="3996">
+        <TableRegion id="t_60" custom="readingOrder {index:0;}">
+            <Coords points="356,699 356,2555 2481,2555 2481,699"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_261" custom="structure {type:heading;}">
+                <Coords points="196,638 190,899 2164,899 2164,653"/>
+                <TextLine id="c_261_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="231,932 313,942 356,911 523,939 578,898 670,920 778,879 884,901 964,877 949,802 853,833 776,792 713,814 537,730 385,780 332,739 231,732"/>
+                    <Baseline points="244,864 333,864 423,864 512,864 602,870 691,864 781,864 870,864 960,876 966,876"/>
+                    <TextEquiv>
+                        <Unicode>Huijsgesinnen</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="c_261_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="2120,891 2127,891 2129,894 2156,894 2161,841 2149,841 2141,833 2125,831"/>
+                    <Baseline points="2135,888 2164,886"/>
+                    <TextEquiv>
+                        <Unicode></Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="1" rowSpan="1" colSpan="1" id="c_262" custom="structure {type:heading;}">
+                <Coords points="2164,653 2164,899 2496,899 2498,656"/>
+                <TextLine id="c_262_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2153,937 2276,959 2310,961 2324,947 2418,954 2414,785 2377,797 2358,790 2336,809 2293,785 2243,795 2185,783 2151,795"/>
+                    <Baseline points="2164,886 2224,882 2314,882 2403,888 2421,894"/>
+                    <TextEquiv>
+                        <Unicode>qualituijten</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="0" rowSpan="1" colSpan="1" id="c_368">
+                <Coords points="190,899 186,1090 2164,1125 2164,899"/>
+                <TextLine id="l_87" custom="readingOrder {index:0;}">
+                    <Coords points="237,1068 2132,1116 2132,1116 2132,1086 2132,1086 238,1038"/>
+                    <Baseline points="259,1098 2132,1116 2132,1116"/>
+                    <TextEquiv>
+                        <Unicode>Der E E agtb: heer Julius Valentheijn Stein van Gollenesse</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="1" rowSpan="1" colSpan="1" id="c_370">
+                <Coords points="2164,899 2164,1125 2495,1130 2496,899"/>
+                <TextLine id="c_370_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2151,1127 2182,1118 2218,1130 2262,1115 2281,1125 2308,1118 2339,1139 2440,1127 2440,1033 2361,1009 2341,1024 2283,1012 2262,1026 2151,1002"/>
+                    <Baseline points="2164,1097 2206,1097 2296,1097 2385,1097 2445,1097"/>
+                    <TextEquiv>
+                        <Unicode>Commandeur</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="0" rowSpan="1" colSpan="1" id="c_422">
+                <Coords points="186,1090 184,1178 2164,1213 2164,1125"/>
+                <TextLine id="c_422_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="267,1192 494,1183 540,1219 795,1183 932,1228 988,1190 1963,1195 1963,1132 1886,1113 1833,1142 1587,1106 1448,1147 1245,1089 1135,1130 1077,1096 985,1132 267,1108"/>
+                    <Baseline points="280,1163 369,1163 459,1163 548,1168 638,1168 727,1163 817,1163 906,1163 996,1168 1085,1168 1174,1168 1264,1168 1353,1168 1443,1168 1532,1174 1622,1174 1711,1174 1801,1174 1890,1180 1968,1180"/>
+                    <TextEquiv>
+                        <Unicode>d:o E hoofd administrateur Adriaan Harsteede-</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="1" rowSpan="1" colSpan="1" id="c_424">
+                <Coords points="2164,1125 2164,1213 2494,1219 2495,1130"/>
+                <TextLine id="c_424_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2149,1207 2178,1204 2221,1250 2276,1245 2296,1226 2349,1245 2368,1226 2387,1236 2426,1226 2428,1161 2411,1156 2305,1163 2231,1122 2153,1147"/>
+                    <Baseline points="2164,1192 2254,1186 2343,1180 2433,1180"/>
+                    <TextEquiv>
+                        <Unicode>Coopman</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="0" rowSpan="1" colSpan="1" id="c_443">
+                <Coords points="184,1178 182,1269 2164,1304 2164,1213"/>
+                <TextLine id="c_443_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="320,1274 768,1306 874,1281 935,1315 1159,1291 1197,1318 1219,1197 930,1226 318,1183"/>
+                    <Baseline points="333,1258 423,1258 512,1258 602,1264 691,1264 781,1264 870,1264 960,1264 1049,1264 1139,1270 1228,1270"/>
+                    <TextEquiv>
+                        <Unicode>Eeerst: heer Walerius Nicolais</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="1" rowSpan="1" colSpan="1" id="c_445">
+                <Coords points="2164,1213 2164,1304 2493,1310 2494,1219"/>
+                <TextLine id="c_445_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2156,1339 2182,1351 2255,1303 2373,1306 2428,1332 2457,1303 2481,1308 2483,1224 2375,1262 2346,1250 2324,1257 2296,1228 2276,1245 2211,1250 2190,1228 2158,1221"/>
+                    <Baseline points="2170,1288 2260,1288 2349,1288 2439,1282 2487,1288"/>
+                    <TextEquiv>
+                        <Unicode>predicant</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="0" rowSpan="1" colSpan="1" id="c_467">
+                <Coords points="182,1269 180,1369 2164,1404 2164,1304"/>
+                <TextLine id="c_467_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="234,1351 867,1412 1000,1373 1717,1383 1884,1431 2028,1387 2026,1277 1893,1238 1602,1269 1431,1200 1147,1325 231,1272"/>
+                    <Baseline points="244,1347 333,1347 423,1353 512,1353 602,1353 691,1359 781,1359 870,1359 960,1359 1049,1359 1139,1359 1228,1359 1318,1359 1407,1359 1497,1359 1586,1359 1675,1365 1765,1365 1854,1365 1944,1371 2033,1371"/>
+                    <TextEquiv>
+                        <Unicode>d' weduwe van den Coppercoopman Johannes Steenhuijsen</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="1" rowSpan="1" colSpan="1" id="c_469">
+                <Coords points="2164,1304 2164,1404 2492,1410 2493,1310"/>
+                <TextLine id="c_469_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2168,1383 2209,1385 2240,1397 2252,1392 2279,1419 2300,1416 2322,1399 2385,1397 2385,1344 2358,1334 2351,1342 2293,1303 2240,1308 2185,1351 2168,1354"/>
+                    <Baseline points="2182,1377 2272,1377 2361,1377 2391,1377"/>
+                    <TextEquiv>
+                        <Unicode>weduwe</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="0" rowSpan="1" colSpan="1" id="c_494">
+                <Coords points="180,1369 178,1452 2164,1487 2164,1404"/>
+                <TextLine id="c_494_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="224,1493 328,1452 783,1503 992,1462 1385,1491 1443,1484 1443,1378 1325,1419 1226,1373 879,1419 807,1375 316,1404 222,1346"/>
+                    <Baseline points="238,1437 328,1437 417,1437 506,1443 596,1443 685,1443 775,1449 864,1443 954,1449 1043,1443 1133,1449 1222,1449 1312,1449 1401,1449 1449,1455"/>
+                    <TextEquiv>
+                        <Unicode>den Emanhaften Jan Fredrik Wernek</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="1" rowSpan="1" colSpan="1" id="c_496">
+                <Coords points="2164,1404 2164,1487 2492,1492 2492,1410"/>
+                <TextLine id="c_496_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2175,1481 2206,1479 2226,1498 2245,1486 2276,1498 2293,1486 2344,1525 2377,1513 2459,1520 2455,1399 2411,1404 2382,1436 2341,1433 2322,1416 2279,1419 2252,1395 2211,1385 2173,1387"/>
+                    <Baseline points="2188,1459 2284,1461 2373,1461 2463,1467"/>
+                    <TextEquiv>
+                        <Unicode>Oude Capitain</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="0" rowSpan="1" colSpan="1" id="c_524">
+                <Coords points="178,1452 176,1543 2164,1578 2164,1487"/>
+                <TextLine id="c_524_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="236,1558 978,1556 1293,1599 1544,1568 1595,1614 1814,1583 1811,1416 1544,1440 1477,1513 1334,1462 1257,1493 1026,1462 935,1508 450,1457 234,1493"/>
+                    <Baseline points="250,1526 339,1526 429,1526 518,1526 608,1532 697,1532 787,1532 876,1532 966,1532 1055,1532 1145,1538 1234,1538 1324,1538 1413,1538 1502,1544 1592,1544 1681,1544 1771,1544 1819,1550"/>
+                    <TextEquiv>
+                        <Unicode>ditto huijsvrouw van den E albert Francois Legrand</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="1" rowSpan="1" colSpan="1" id="c_526">
+                <Coords points="2164,1487 2164,1578 2491,1583 2492,1492"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="0" rowSpan="1" colSpan="1" id="c_557">
+                <Coords points="176,1543 174,1639 2164,1674 2164,1578"/>
+                <TextLine id="c_557_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="263,1655 448,1662 506,1633 564,1664 593,1643 744,1662 780,1628 1050,1650 1048,1580 985,1558 848,1580 776,1546 701,1583 513,1546 436,1583 371,1546 260,1561"/>
+                    <Baseline points="274,1610 363,1604 453,1604 542,1610 632,1610 721,1616 811,1616 900,1616 990,1622 1055,1622"/>
+                    <TextEquiv>
+                        <Unicode>ditto Daniel Simonsz:</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="c_557_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="2147,1601 2164,1599 2164,1649 2147,1651"/>
+                    <Baseline points="2147,1646 2164,1644"/>
+                    <TextEquiv>
+                        <Unicode></Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="1" rowSpan="1" colSpan="1" id="c_559">
+                <Coords points="2164,1578 2164,1674 2490,1680 2491,1583"/>
+                <TextLine id="c_559_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2151,1667 2235,1657 2298,1689 2324,1669 2377,1710 2442,1689 2440,1513 2368,1539 2349,1525 2322,1554 2300,1539 2271,1551 2221,1527 2178,1527 2146,1544"/>
+                    <Baseline points="2164,1644 2236,1640 2326,1646 2415,1652 2451,1652"/>
+                    <TextEquiv>
+                        <Unicode>Oude Coopman</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="8" col="0" rowSpan="1" colSpan="1" id="c_593">
+                <Coords points="174,1639 172,1726 2164,1761 2164,1674"/>
+                <TextLine id="c_593_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="248,1725 438,1725 494,1775 655,1734 727,1780 927,1720 1019,1754 1127,1739 1127,1676 1048,1645 393,1655 248,1686"/>
+                    <Baseline points="262,1711 351,1705 441,1705 530,1705 620,1711 709,1711 799,1711 888,1711 978,1711 1067,1711 1133,1711"/>
+                    <TextEquiv>
+                        <Unicode>„ „ Gerrit Van Greuningen</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="c_593_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="2159,1696 2164,1695 2164,1745 2159,1746"/>
+                    <Baseline points="2159,1741 2164,1740"/>
+                    <TextEquiv>
+                        <Unicode></Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="8" col="1" rowSpan="1" colSpan="1" id="c_595">
+                <Coords points="2164,1674 2164,1761 2490,1766 2490,1680"/>
+                <TextLine id="c_595_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2151,1792 2194,1773 2231,1799 2296,1795 2334,1763 2363,1758 2375,1770 2404,1761 2457,1778 2457,1720 2397,1703 2377,1710 2346,1679 2247,1715 2187,1662 2151,1672"/>
+                    <Baseline points="2164,1740 2194,1735 2284,1741 2373,1735 2463,1735"/>
+                    <TextEquiv>
+                        <Unicode>luijtenant</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="9" col="0" rowSpan="1" colSpan="1" id="c_632">
+                <Coords points="172,1726 170,1813 2164,1848 2164,1761"/>
+                <TextLine id="c_632_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="308,1826 520,1828 576,1881 684,1826 1084,1860 1173,1823 1269,1874 1301,1869 1301,1761 1074,1773 937,1720 727,1785 609,1739 518,1780 381,1720 306,1756"/>
+                    <Baseline points="322,1795 411,1795 500,1795 590,1801 679,1801 769,1801 858,1801 948,1807 1037,1807 1127,1807 1216,1807 1306,1819 1312,1813"/>
+                    <TextEquiv>
+                        <Unicode>„ ondercoopman Francois terlung</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="9" col="1" rowSpan="1" colSpan="1" id="c_634">
+                <Coords points="2164,1761 2164,1848 2490,1854 2490,1766"/>
+                <TextLine id="c_634_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2163,1852 2190,1845 2235,1867 2305,1852 2327,1872 2361,1852 2373,1864 2392,1860 2433,1876 2430,1773 2404,1763 2361,1787 2308,1790 2296,1804 2262,1790 2228,1802 2161,1797"/>
+                    <Baseline points="2176,1825 2266,1831 2355,1831 2439,1831"/>
+                    <TextEquiv>
+                        <Unicode>eerste palenthuis</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="0" rowSpan="1" colSpan="1" id="c_674">
+                <Coords points="170,1813 168,1914 2164,1949 2164,1848"/>
+                <TextLine id="c_674_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="600,1925 682,1949 730,1917 836,1941 915,1917 978,1946 1007,1915 1383,1946 1383,1857 1243,1872 1171,1823 1060,1867 937,1835 894,1867 862,1848 766,1874 597,1848"/>
+                    <Baseline points="614,1890 703,1890 793,1890 882,1890 972,1896 1061,1896 1151,1896 1240,1896 1330,1902 1389,1902"/>
+                    <TextEquiv>
+                        <Unicode>d=o Abraham van dewelle</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="1" rowSpan="1" colSpan="1" id="c_676">
+                <Coords points="2164,1848 2164,1949 2489,1954 2490,1854"/>
+                <TextLine id="c_676_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2170,1953 2187,1949 2206,1968 2218,1968 2235,1951 2267,1966 2296,1944 2305,1951 2317,1944 2341,1953 2361,1944 2385,1949 2380,1881 2336,1881 2305,1852 2296,1860 2250,1857 2228,1874 2190,1845 2163,1852"/>
+                    <Baseline points="2182,1914 2272,1920 2361,1926 2391,1926"/>
+                    <TextEquiv>
+                        <Unicode>fiscaal</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="0" rowSpan="1" colSpan="1" id="c_719">
+                <Coords points="168,1914 166,2005 2164,2040 2164,1949"/>
+                <TextLine id="c_719_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="279,2023 477,2004 612,2045 821,1999 927,2043 1016,2006 1115,2062 1342,2040 1342,1946 1115,1917 1007,1961 761,1917 708,1956 624,1920 515,1966 279,1966"/>
+                    <Baseline points="292,1998 363,1992 453,1992 542,1992 632,1992 721,1986 811,1992 900,1992 990,1992 1079,1992 1168,1998 1258,1992 1347,1992"/>
+                    <TextEquiv>
+                        <Unicode>„ „ - „ Joannes Mooijaart</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="1" rowSpan="1" colSpan="1" id="c_721">
+                <Coords points="2164,1949 2164,2040 2489,2046 2489,1954"/>
+                <TextLine id="c_721_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2175,2055 2211,2043 2245,2072 2257,2057 2300,2059 2332,2043 2414,2064 2435,2050 2486,2074 2486,1932 2457,1920 2433,1944 2397,1937 2361,1963 2276,1961 2257,1973 2235,1958 2216,1970 2192,1953 2175,1958"/>
+                    <Baseline points="2188,2015 2278,2009 2367,2009 2457,2015 2489,2015"/>
+                    <TextEquiv>
+                        <Unicode>secretaris</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="12" col="0" rowSpan="1" colSpan="1" id="c_767">
+                <Coords points="166,2005 164,2096 2164,2131 2164,2040"/>
+                <TextLine id="c_767_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="453,2093 602,2117 742,2100 850,2127 1127,2110 1127,2062 1019,2009 935,2040 826,1997 723,2006 682,2040 453,2040"/>
+                    <Baseline points="465,2081 554,2087 644,2087 733,2081 823,2081 912,2087 1001,2087 1091,2087 1133,2087"/>
+                    <TextEquiv>
+                        <Unicode>.„ Jan Delille</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="c_767_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="2159,2066 2164,2066 2164,2116 2159,2116"/>
+                    <Baseline points="2159,2111 2164,2111"/>
+                    <TextEquiv>
+                        <Unicode></Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="12" col="1" rowSpan="1" colSpan="1" id="c_769">
+                <Coords points="2164,2040 2164,2131 2488,2137 2489,2046"/>
+                <TextLine id="c_769_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2151,2144 2187,2139 2252,2175 2274,2163 2291,2170 2310,2156 2324,2163 2380,2146 2380,2062 2363,2062 2346,2047 2252,2062 2240,2074 2204,2047 2165,2081 2151,2079"/>
+                    <Baseline points="2164,2111 2248,2111 2337,2111 2385,2111"/>
+                    <TextEquiv>
+                        <Unicode>Cassier</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="13" col="0" rowSpan="1" colSpan="1" id="c_818">
+                <Coords points="164,2096 162,2188 2164,2223 2164,2131"/>
+                <TextLine id="c_818_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="655,2235 752,2231 821,2187 1163,2226 1209,2197 1209,2120 1077,2151 990,2100 947,2125 759,2122 715,2103 653,2120"/>
+                    <Baseline points="667,2170 757,2170 846,2176 936,2176 1025,2176 1115,2176 1204,2182 1216,2176"/>
+                    <TextEquiv>
+                        <Unicode>Corijn Stevens</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="13" col="1" rowSpan="1" colSpan="1" id="c_820">
+                <Coords points="2164,2131 2164,2223 2488,2229 2488,2137"/>
+                <TextLine id="c_820_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2156,2223 2187,2235 2214,2218 2226,2231 2262,2235 2271,2223 2327,2235 2365,2221 2418,2233 2455,2218 2455,2187 2430,2185 2368,2146 2327,2170 2274,2163 2238,2185 2204,2185 2156,2156"/>
+                    <Baseline points="2170,2200 2260,2200 2349,2200 2439,2206 2457,2206"/>
+                    <TextEquiv>
+                        <Unicode>winkelier</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="14" col="0" rowSpan="1" colSpan="1" id="c_872">
+                <Coords points="162,2188 160,2297 2164,2332 2164,2223"/>
+                <TextLine id="c_872_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="655,2324 723,2298 764,2320 843,2310 891,2286 1016,2339 1089,2305 1130,2324 1183,2305 1180,2235 1163,2231 1115,2250 1089,2223 978,2216 903,2250 802,2190 749,2231 653,2235"/>
+                    <Baseline points="667,2272 757,2272 846,2272 936,2272 1025,2272 1115,2278 1186,2290"/>
+                    <TextEquiv>
+                        <Unicode>Nicolaas bowijn</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="14" col="1" rowSpan="1" colSpan="1" id="c_874">
+                <Coords points="2164,2223 2164,2332 2487,2338 2488,2229"/>
+                <TextLine id="c_874_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2151,2329 2175,2322 2221,2368 2250,2370 2279,2344 2329,2339 2346,2322 2445,2329 2481,2312 2479,2211 2418,2231 2406,2223 2382,2247 2315,2245 2274,2271 2245,2271 2223,2250 2199,2259 2175,2238 2151,2243"/>
+                    <Baseline points="2164,2301 2248,2296 2337,2296 2427,2302 2487,2302"/>
+                    <TextEquiv>
+                        <Unicode>zoldij boekeh:</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="15" col="0" rowSpan="1" colSpan="1" id="c_929">
+                <Coords points="160,2297 158,2384 2164,2419 2164,2332"/>
+                <TextLine id="c_929_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="291,2402 400,2375 547,2411 672,2382 1228,2392 1228,2341 990,2336 903,2286 684,2349 617,2293 537,2283 426,2336 291,2329"/>
+                    <Baseline points="304,2361 393,2367 483,2361 572,2361 662,2367 751,2367 840,2367 930,2367 1019,2367 1109,2373 1198,2373 1234,2379"/>
+                    <TextEquiv>
+                        <Unicode>. -„ Cornelis van Meeckeren</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="15" col="1" rowSpan="1" colSpan="1" id="c_931">
+                <Coords points="2164,2332 2164,2419 2487,2425 2487,2338"/>
+                <TextLine id="l_321" custom="readingOrder {index:0;}">
+                    <Coords points="2174,2415 2448,2413 2448,2383 2174,2385"/>
+                    <Baseline points="2174,2415 2448,2413"/>
+                    <TextEquiv>
+                        <Unicode>Hooft Taeq</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="16" col="0" rowSpan="1" colSpan="1" id="c_989">
+                <Coords points="158,2384 156,2480 2164,2515 2164,2419"/>
+                <TextLine id="c_989_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="383,2493 487,2469 566,2503 737,2481 845,2515 927,2488 1101,2546 1139,2508 1228,2498 1226,2411 1142,2389 954,2433 891,2389 845,2421 576,2433 467,2382 381,2440"/>
+                    <Baseline points="393,2463 483,2463 572,2463 662,2463 751,2469 840,2469 930,2469 1019,2475 1109,2475 1198,2475 1234,2475"/>
+                    <TextEquiv>
+                        <Unicode>Coenraat Abrahamsz:</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="16" col="1" rowSpan="1" colSpan="1" id="c_991">
+                <Coords points="2164,2419 2164,2515 2486,2521 2487,2425"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="17" col="0" rowSpan="1" colSpan="1" id="c_1052">
+                <Coords points="156,2480 154,2580 2164,2615 2164,2515"/>
+                <TextLine id="c_1052_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="219,2628 422,2568 484,2626 559,2573 689,2570 761,2597 831,2582 831,2508 737,2481 650,2510 462,2476 388,2522 306,2483 219,2524"/>
+                    <Baseline points="232,2570 298,2552 387,2552 477,2546 566,2552 656,2558 745,2558 834,2558"/>
+                    <TextEquiv>
+                        <Unicode>Jan Hendrik Lubbe</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="c_1052_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="2120,2638 2132,2640 2141,2652 2153,2652 2158,2573 2141,2573 2134,2565 2122,2563"/>
+                    <Baseline points="2135,2588 2164,2586"/>
+                    <TextEquiv>
+                        <Unicode></Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="17" col="1" rowSpan="1" colSpan="1" id="c_1054">
+                <Coords points="2164,2515 2164,2615 2485,2620 2486,2521"/>
+                <TextLine id="c_1054_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2153,2628 2206,2621 2223,2604 2300,2606 2365,2638 2426,2611 2440,2626 2471,2626 2469,2488 2387,2479 2351,2491 2332,2474 2315,2486 2276,2467 2247,2483 2214,2474 2151,2491"/>
+                    <Baseline points="2164,2586 2224,2582 2314,2588 2403,2588 2475,2588"/>
+                    <TextEquiv>
+                        <Unicode>vaandrig</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="18" col="0" rowSpan="1" colSpan="1" id="c_1118">
+                <Coords points="154,2580 152,2658 2164,2693 2164,2615"/>
+                <TextLine id="c_1118_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="340,2686 352,2683 369,2693 419,2657 448,2669 465,2659 494,2676 530,2664 528,2594 518,2594 487,2626 422,2570 393,2597 369,2587 337,2589"/>
+                    <Baseline points="351,2642 441,2642 530,2648 536,2642"/>
+                    <TextEquiv>
+                        <Unicode>ditto Schut</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="18" col="1" rowSpan="1" colSpan="1" id="c_1120">
+                <Coords points="2164,2615 2164,2693 2485,2699 2485,2620"/>
+                <TextLine id="c_1120_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2238,2724 2281,2736 2339,2691 2370,2693 2406,2729 2430,2729 2433,2645 2411,2642 2394,2652 2365,2640 2351,2623 2327,2633 2310,2618 2296,2621 2279,2604 2243,2604"/>
+                    <Baseline points="2254,2677 2260,2677 2349,2671 2439,2671"/>
+                    <TextEquiv>
+                        <Unicode>ditto</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="19" col="0" rowSpan="1" colSpan="1" id="c_1187">
+                <Coords points="152,2658 150,2763 2164,2798 2164,2693"/>
+                <TextLine id="c_1187_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="188,2734 258,2768 296,2746 316,2763 332,2753 397,2768 496,2748 578,2756 576,2674 528,2686 513,2671 417,2662 376,2691 332,2698 270,2650 183,2642"/>
+                    <Baseline points="202,2719 292,2725 381,2731 471,2731 560,2737 584,2731"/>
+                    <TextEquiv>
+                        <Unicode>Daniel bos</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="19" col="1" rowSpan="1" colSpan="1" id="c_1189">
+                <Coords points="2164,2693 2164,2798 2484,2804 2485,2699"/>
+                <TextLine id="l_60" custom="readingOrder {index:0;}">
+                    <Coords points="2199,2789 2432,2792 2432,2762 2199,2759"/>
+                    <Baseline points="2199,2789 2432,2792"/>
+                    <TextEquiv>
+                        <Unicode>ditto</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="20" col="0" rowSpan="1" colSpan="1" id="c_1259">
+                <Coords points="150,2763 148,2853 2164,2888 2164,2798"/>
+                <TextLine id="c_1259_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="236,2857 443,2838 581,2878 756,2854 805,2871 889,2854 889,2804 800,2804 720,2756 494,2751 460,2770 296,2746 234,2775"/>
+                    <Baseline points="250,2821 339,2821 429,2821 518,2821 608,2827 697,2827 787,2832 876,2832 894,2832"/>
+                    <TextEquiv>
+                        <Unicode>pieter van der Linde</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="20" col="1" rowSpan="1" colSpan="1" id="c_1261">
+                <Coords points="2164,2798 2164,2888 2484,2894 2484,2804"/>
+                <TextLine id="l_67" custom="readingOrder {index:0;}">
+                    <Coords points="2196,2870 2364,2870 2364,2840 2196,2840"/>
+                    <Baseline points="2196,2870 2364,2870"/>
+                    <TextEquiv>
+                        <Unicode>"</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="21" col="0" rowSpan="1" colSpan="1" id="c_1334">
+                <Coords points="148,2853 146,2944 2164,2980 2164,2888"/>
+                <TextLine id="c_1334_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="214,2965 282,2931 1142,2977 1139,2823 942,2794 718,2903 662,2859 581,2878 482,2845 402,2876 279,2838 212,2888"/>
+                    <Baseline points="226,2916 316,2916 405,2916 495,2916 584,2916 673,2916 763,2922 852,2922 942,2922 1031,2928 1121,2928 1145,2928"/>
+                    <TextEquiv>
+                        <Unicode>Ernst Christiaan harrigers</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="21" col="1" rowSpan="1" colSpan="1" id="c_1336">
+                <Coords points="2164,2888 2164,2980 2484,2985 2484,2894"/>
+                <TextLine id="c_1336_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2151,2987 2192,2975 2221,2996 2245,2970 2264,2968 2300,2994 2324,2972 2351,2970 2402,2970 2423,2992 2457,2989 2457,2890 2389,2876 2353,2888 2324,2919 2269,2898 2151,2912"/>
+                    <Baseline points="2164,2952 2254,2952 2343,2952 2433,2958 2463,2958"/>
+                    <TextEquiv>
+                        <Unicode>oppenchir:</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="22" col="0" rowSpan="1" colSpan="1" id="c_1412">
+                <Coords points="146,2944 144,3027 2164,3063 2164,2980"/>
+                <TextLine id="c_1412_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="231,3057 1103,3045 1082,2958 966,2994 826,2941 744,2972 634,2939 470,2984 369,2936 306,2994 231,2980"/>
+                    <Baseline points="244,3017 333,3011 423,3011 512,3011 602,3011 691,3011 781,3011 870,3017 960,3017 1049,3017 1109,3023"/>
+                    <TextEquiv>
+                        <Unicode>gulliam gerrad Francimont</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="c_1412_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="2147,2990 2164,2990 2164,3040 2147,3040"/>
+                    <Baseline points="2147,3035 2164,3035"/>
+                    <TextEquiv>
+                        <Unicode></Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="22" col="1" rowSpan="1" colSpan="1" id="c_1414">
+                <Coords points="2164,2980 2164,3063 2483,3068 2484,2985"/>
+                <TextLine id="c_1414_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2156,3083 2199,3098 2291,3083 2332,3093 2363,3076 2418,3071 2447,3086 2440,2996 2387,3006 2361,2984 2351,2994 2312,2982 2300,2994 2257,2977 2231,3001 2197,2975 2146,2989"/>
+                    <Baseline points="2164,3035 2236,3035 2326,3047 2415,3053 2451,3059"/>
+                    <TextEquiv>
+                        <Unicode>Eerste Clerq</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="23" col="0" rowSpan="1" colSpan="1" id="c_1493">
+                <Coords points="144,3027 142,3131 2164,3167 2164,3063"/>
+                <TextLine id="c_1493_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="236,3141 287,3115 342,3131 366,3119 397,3139 424,3119 472,3117 593,3148 626,3122 684,3119 682,3045 619,3035 593,3052 576,3040 443,3064 419,3047 234,3057"/>
+                    <Baseline points="250,3101 339,3095 429,3101 518,3101 608,3101 691,3101"/>
+                    <TextEquiv>
+                        <Unicode>Pieter Isaaksz:</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="c_1493_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="2153,3068 2164,3068 2164,3118 2153,3118"/>
+                    <Baseline points="2153,3113 2164,3113"/>
+                    <TextEquiv>
+                        <Unicode></Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="23" col="1" rowSpan="1" colSpan="1" id="c_1495">
+                <Coords points="2164,3063 2164,3167 2482,3172 2483,3068"/>
+                <TextLine id="l_103" custom="readingOrder {index:0;}">
+                    <Coords points="2177,3138 2451,3141 2451,3111 2177,3108"/>
+                    <Baseline points="2177,3138 2451,3141"/>
+                    <TextEquiv>
+                        <Unicode>regot opdaag</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="24" col="0" rowSpan="1" colSpan="1" id="c_1577">
+                <Coords points="142,3131 140,3218 2164,3254 2164,3167"/>
+                <TextLine id="c_1577_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="224,3204 576,3230 641,3213 679,3249 889,3218 889,3168 802,3172 718,3117 638,3119 593,3148 424,3117 354,3168 277,3115 224,3155"/>
+                    <Baseline points="238,3196 328,3190 417,3196 506,3190 596,3196 685,3202 775,3202 864,3196 894,3202"/>
+                    <TextEquiv>
+                        <Unicode>Harmanus van dijk -</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="c_1577_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="2147,3175 2164,3174 2164,3224 2147,3225"/>
+                    <Baseline points="2147,3220 2164,3219"/>
+                    <TextEquiv>
+                        <Unicode></Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="24" col="1" rowSpan="1" colSpan="1" id="c_1579">
+                <Coords points="2164,3167 2164,3254 2482,3259 2482,3172"/>
+                <TextLine id="c_1579_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2153,3240 2175,3237 2214,3261 2245,3240 2341,3240 2377,3264 2423,3237 2469,3240 2464,3131 2421,3168 2380,3146 2329,3189 2281,3184 2269,3196 2218,3160 2149,3160"/>
+                    <Baseline points="2164,3219 2236,3214 2326,3220 2415,3226 2475,3226"/>
+                    <TextEquiv>
+                        <Unicode>Zoldij ditto</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="25" col="0" rowSpan="1" colSpan="1" id="c_1664">
+                <Coords points="140,3218 137,3323 2164,3358 2164,3254"/>
+                <TextLine id="c_1664_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="207,3317 255,3305 328,3341 402,3295 441,3314 520,3305 602,3334 631,3319 629,3220 552,3218 523,3237 446,3213 378,3249 335,3218 299,3228 260,3204 205,3211"/>
+                    <Baseline points="220,3274 310,3274 399,3280 489,3280 578,3280 638,3280"/>
+                    <TextEquiv>
+                        <Unicode>Cadolph den brouwer</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="25" col="1" rowSpan="1" colSpan="1" id="c_1666">
+                <Coords points="2164,3254 2164,3358 2481,3364 2482,3259"/>
+                <TextLine id="l_63" custom="readingOrder {index:0;}">
+                    <Coords points="2166,3328 2394,3336 2395,3306 2167,3298"/>
+                    <Baseline points="2166,3328 2394,3336"/>
+                    <TextEquiv>
+                        <Unicode>jaab Chiru:</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="26" col="0" rowSpan="1" colSpan="1" id="c_1665">
+                <Coords points="137,3323 134,3445 2164,3445 2164,3358"/>
+                <TextLine id="l" custom="readingOrder {index:0;}">
+                    <Coords points="211,3398 782,3415 783,3385 212,3368"/>
+                    <Baseline points="211,3398 782,3415"/>
+                    <TextEquiv>
+                        <Unicode>Gijsbert van Vonder</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="c_1665_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="2108,3469 2120,3469 2132,3459 2153,3461 2163,3334 2134,3339 2129,3331 2117,3331"/>
+                    <Baseline points="2123,3411 2164,3408"/>
+                    <TextEquiv>
+                        <Unicode></Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="26" col="1" rowSpan="1" colSpan="1" id="c_1667">
+                <Coords points="2164,3358 2164,3445 2481,3445 2481,3364"/>
+                <TextLine id="c_1667_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="2151,3435 2185,3452 2214,3447 2243,3471 2291,3437 2346,3464 2402,3435 2440,3449 2440,3372 2397,3382 2361,3351 2317,3387 2298,3387 2235,3348 2185,3387 2151,3392"/>
+                    <Baseline points="2164,3408 2212,3405 2302,3405 2391,3405 2445,3411"/>
+                    <TextEquiv>
+                        <Unicode>dispensier</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+    </Page>
+</PcGts>
