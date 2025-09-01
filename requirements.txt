@@ -1,3 +1,2 @@
-pagexml
 pagexml-tools
 lxml
