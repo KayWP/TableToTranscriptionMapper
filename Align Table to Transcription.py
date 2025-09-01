@@ -3,30 +3,75 @@ import os
 import re
 import pandas as pd
 import requests
+import streamlit as st
 
 # Add your custom pagexml directory to the front of the path
 sys.path.insert(0, 'C:/Users/kayp/GitHub/pagexml')
 
 from pagexml.parser import parse_pagexml_file
 
-def main():
-    invno = 2339
-    scanno = 408
+import streamlit as st
+import pandas as pd
+import numpy as np
 
+@st.cache_data
+def convert_for_download(df):
+    return df.to_csv().encode("utf-8")
+
+def main():
+    st.title('Map a Transkribus table onto a GlOBALISE scan')
+
+    invno = None
+    scanno = None
+    table_scan_file = None
+
+    invno = st.text_input('Input the inventory number of your document')
+    scanno = st.text_input('Input the scan number of your document')
+    table_scan_file = st.file_uploader('Upload a Transkribus page-xml file with a table element.')
+
+    if invno and scanno and table_scan_file:
+        if st.button('Convert'):
+            try:
+                df = transform_scan_to_df(invno, scanno, table_scan_file)
+
+                st.write(df)
+
+                # Add CSV download functionality
+                csv = convert_for_download(df)
+                st.download_button(
+                    label="Download CSV",
+                    data=csv,
+                    file_name=f"transkribus_table_{invno}_{scanno}.csv",
+                    mime="text/csv",
+                    icon=":material/download:",
+                )
+
+            except IndexError:
+                st.warning("Your inventory number, scan number or Transkribus file is not correct.")
+
+    else:
+        st.warning("Please upload a Transkribus page-xml with a table element and make sure the correct inventory number and scan number are selected.")
+    
+
+def transform_scan_to_df(invno, scanno, table_scan_file):
     raw_xml = fetch_transcription(invno, scanno)
+
+    if table_scan_file is not None:
+        # Make sure parser reads bytes or decoded string
+        xml_content = table_scan_file.read().decode("utf-8")  # decode from bytes to str
+        table_scan = parse_pagexml_file(pagexml_file="",
+                                        pagexml_data=xml_content)
+
 
     # Pass the raw XML directly:
     transcription_scan = parse_pagexml_file(
         pagexml_file="",              # dummy or placeholder path
         pagexml_data=raw_xml         # actual XML content
     )
-    table_scan = parse_pagexml_file('sample.xml')
-
+    
     df = map_scans(table_scan, transcription_scan)
 
-    output_filename = f"{invno}_{scanno}.csv"
-    df.to_csv(output_filename, index=False, encoding='UTF-8')
-    print(f"Saved: {output_filename}")
+    return df
 
 def map_scans(tablescan, transcription_scan):
     scale_x, scale_y = find_ratio(tablescan, transcription_scan)
