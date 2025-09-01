@@ -118,42 +118,40 @@ class TranskribusTableMapper:
             logger.error(f"Failed to calculate scaling ratio: {e}")
             raise ValueError(f"Invalid scan metadata: {e}")
     
-    def extract_word_coordinates(self, scan: Any) -> Dict[str, Dict[str, int]]:
+    def extract_word_coordinates(self, scan: Any) -> List[Dict[str, Any]]:
         """
-        Extract word coordinates from scan.
+        Extract word coordinates from scan, preserving original text and coordinates.
         
         Args:
             scan: Parsed pagexml object
             
         Returns:
-            Dictionary mapping word text to coordinate boxes
+            List of dictionaries with 'text' and 'coords' keys
         """
-        word_dict = {}
+        word_list = []
         
-        for i, word in enumerate(scan.get_words()):
+        for word in scan.get_words():
             if word.text and word.coords:
-                # Handle duplicate words by adding index
-                key = word.text
-                if key in word_dict:
-                    key = f"{word.text}_{i}"
-                
-                word_dict[key] = word.coords.box
+                word_list.append({
+                    'text': word.text,
+                    'coords': word.coords.box
+                })
         
-        logger.info(f"Extracted {len(word_dict)} words")
-        return word_dict
+        logger.info(f"Extracted {len(word_list)} words")
+        return word_list
     
-    def scale_coordinates(self, coord_dict: Dict[str, Dict[str, int]], 
-                         scale_x: float, scale_y: float) -> Dict[str, Dict[str, int]]:
+    def scale_coordinates(self, word_list: List[Dict[str, Any]], 
+                         scale_x: float, scale_y: float) -> List[Dict[str, Any]]:
         """
         Scale coordinate boxes by given ratios.
         
         Args:
-            coord_dict: Dictionary of coordinates
+            word_list: List of word dictionaries with text and coords
             scale_x: X scaling factor
             scale_y: Y scaling factor
             
         Returns:
-            Dictionary with scaled coordinates
+            List with scaled coordinates
         """
         def scale_box(box: Dict[str, int]) -> Dict[str, int]:
             return {
@@ -163,22 +161,29 @@ class TranskribusTableMapper:
                 'h': int(box['h'] * scale_y)
             }
         
-        return {label: scale_box(box) for label, box in coord_dict.items()}
+        scaled_words = []
+        for word in word_list:
+            scaled_words.append({
+                'text': word['text'],
+                'coords': scale_box(word['coords'])
+            })
+        
+        return scaled_words
     
-    def find_overlapping_words(self, word_dict: Dict[str, Dict[str, int]], 
+    def find_overlapping_words(self, word_list: List[Dict[str, Any]], 
                               reference_box: Dict[str, int], 
-                              overlap_threshold: float = 0.0) -> Dict[str, Dict[str, int]]:
+                              overlap_threshold: float = 0.0) -> List[str]:
         """
         Find words that overlap with reference box based on overlap threshold.
         
         Args:
-            word_dict: Dictionary of word coordinates
+            word_list: List of word dictionaries with text and coords
             reference_box: Reference box to check overlap against
             overlap_threshold: Minimum overlap percentage required (0.0 to 1.0)
                               0.0 = any overlap, 1.0 = complete overlap required
             
         Returns:
-            Dictionary of overlapping words
+            List of overlapping word texts (clean, without indices)
         """
         def calculate_overlap_percentage(box: Dict[str, int], ref: Dict[str, int]) -> float:
             """Calculate the percentage of the word box that overlaps with reference box."""
@@ -205,17 +210,21 @@ class TranskribusTableMapper:
             overlap_pct = calculate_overlap_percentage(box, ref)
             return overlap_pct >= overlap_threshold
         
-        return {label: box for label, box in word_dict.items() 
-                if meets_overlap_requirement(box, reference_box)}
+        overlapping_words = []
+        for word in word_list:
+            if meets_overlap_requirement(word['coords'], reference_box):
+                overlapping_words.append(word['text'])
+        
+        return overlapping_words
     
-    def build_table_dataframe(self, table: Any, scaled_words: Dict[str, Dict[str, int]], 
+    def build_table_dataframe(self, table: Any, scaled_words: List[Dict[str, Any]], 
                               overlap_threshold: float = 0.0) -> pd.DataFrame:
         """
         Build DataFrame from table structure and word coordinates.
         
         Args:
             table: Table object from pagexml
-            scaled_words: Dictionary of scaled word coordinates
+            scaled_words: List of scaled word dictionaries
             overlap_threshold: Minimum overlap percentage required for word inclusion
             
         Returns:
@@ -230,7 +239,7 @@ class TranskribusTableMapper:
                     overlapping_words = self.find_overlapping_words(
                         scaled_words, cell.coords.box, overlap_threshold
                     )
-                    cell_text = " ".join(overlapping_words.keys())
+                    cell_text = " ".join(overlapping_words)
                 else:
                     cell_text = ""
                     logger.warning(f"Cell at row {cell.row}, col {cell.col} has no coordinates")
@@ -259,8 +268,8 @@ class TranskribusTableMapper:
         scale_x, scale_y = self.find_scaling_ratio(table_scan, transcription_scan)
         
         # Extract and scale word coordinates
-        word_dict = self.extract_word_coordinates(transcription_scan)
-        scaled_words = self.scale_coordinates(word_dict, scale_x, scale_y)
+        word_list = self.extract_word_coordinates(transcription_scan)
+        scaled_words = self.scale_coordinates(word_list, scale_x, scale_y)
         
         # Process tables
         tables = table_scan.table_regions
