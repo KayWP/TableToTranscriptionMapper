@@ -1,2 +1,2 @@
-pagexml-tools
+git+https://github.com/knaw-huc/pagexml.git@947cd2f764bc7e7dff664ace75f4f2ad784f546b
 lxml
