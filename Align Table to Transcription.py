@@ -7,9 +7,6 @@ import streamlit as st
 from typing import Dict, List, Tuple, Optional, Any
 import logging
 
-# Add your custom pagexml directory to the front of the path
-sys.path.insert(0, 'C:/Users/kayp/GitHub/pagexml')
-
 from pagexml.parser import parse_pagexml_file
 
 # Configure logging
